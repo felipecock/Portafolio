@@ -39,7 +39,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 20pt;
   margin: 0;
   border: 0;
   min-width: 440px;
@@ -338,7 +338,11 @@ a.contact-info {
   fill: var(--tema-texto-h1);
 }
 
-@media (min-width: 500pt) {
+@media (min-width: 800pt) {
+  html {
+    font-size: 7pt;
+  }
+
   section.AboutUS {
     display: flex;
     flex-direction: column;
