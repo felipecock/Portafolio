@@ -1,4 +1,4 @@
-# Bienvenido al Portafolio de mi Trabajo
+# Bienvenido a mi Portafolio
 Mi nombre es Felipe Cock Martinez, soy Ingeniero Mecatrónico y Maestro en Optomecatrónica. Me encanta la programación y el desarrollo de software, tengo experiencia en adquisición y manejo de datos en tiempo real, desarrollo de software e implementación de sistemas de control.
 Soy una persona con iniciativa, creativa y recursiva. Me gustan los retos que ayuden a dar solución a los problemas actuales.
 Tengo dominio y pasión en las áreas de desarrollo web, redes de comunicación, IoT e Inteligencia Artificial. Soy entusiasta y promotor del software libre, con amplia experiencia en el uso de distribuciones Linux.
