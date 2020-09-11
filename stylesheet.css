@@ -338,7 +338,7 @@ a.contact-info {
   fill: var(--tema-texto-h1);
 }
 
-@media (min-width: 50em) {
+@media (min-width: 500pt) {
   section.AboutUS {
     display: flex;
     flex-direction: column;
