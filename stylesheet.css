@@ -50,7 +50,7 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   background-color: var(--tema-hoja-000);
-  background-image: url(./JS10.opt.svg);
+  background-image: url(./img/JS10.opt.svg);
   background-attachment: fixed;
   background-blend-mode: multiply;
   background-size: 100% auto;
