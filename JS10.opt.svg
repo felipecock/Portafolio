@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Author: Felipe Cock Martínez 
+License: Creative Commons - Attribution (CC-BY)
+Creation Date: July 2020
+Version: 1.7 September 2020
+-->
+<svg id="Background-Image" width="600px" height="896px" version="1.1" viewBox="0 0 600 896" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style type="text/css">
+			text{font-family: 'Lucida Console',Monaco,monospace}.c1{fill:#ffeb3b!important}.c2{fill:#ff005c!important}.c3{fill:#fff!important}.c4{fill:#e23bff!important}.c5{fill:#66d9ef!important}.c6{fill:#ff9800!important}.c7{fill:#9be800!important}
+		</style>
+		<linearGradient id="b" x1="0" x2="100%" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+			<stop offset="0"/>
+			<stop stop-color="#ffffff" offset="1"/>
+		</linearGradient>
+		<mask id="a" maskUnits="userSpaceOnUse">
+			<rect x="0" y="0" width="100%" height="100%" fill="url(#b)"/>
+		</mask>
+		<g id="code" transform="matrix(1,-0.2,0,1,-5,0)">
+			<text x="0" y="0" stroke-width="0" style="inline-size: 37em; line-height: 1; white-space: pre" xml:space="preserve">
+				<tspan x="0" y="0em" class="c1">&quot;undefined&quot;</tspan><tspan class="c2">==typeof</tspan><tspan class="c3">jQuery.migrateMute</tspan>
+				<tspan x="0" y="1em" class="c2">&amp;&amp;</tspan><tspan class="c3">(jQuery.migrateMute</tspan><tspan class="c2">=!</tspan><tspan class="c4">0</tspan><tspan class="c3">),</tspan><tspan class="c5">function</tspan><tspan class="c3">(</tspan><tspan class="c6">a</tspan>
+				<tspan x="0" y="2em" class="c3">,</tspan><tspan class="c6">b</tspan><tspan class="c3">,</tspan><tspan class="c6">c</tspan><tspan class="c3">)</tspan><tspan class="c3">{</tspan><tspan class="c5">function</tspan><tspan class="c7">d</tspan><tspan class="c3">(</tspan><tspan class="c6">c</tspan><tspan class="c3">)</tspan><tspan class="c3">{</tspan><tspan class="c5">var</tspan><tspan class="c3">d</tspan><tspan class="c2">=</tspan><tspan class="c6">b</tspan><tspan class="c3">.console;f[</tspan><tspan class="c6">c</tspan>
+				<tspan x="0" y="3em" class="c3">]</tspan><tspan class="c2">||</tspan><tspan class="c3">(f[</tspan><tspan class="c6">c</tspan><tspan class="c3">]</tspan><tspan class="c2">=!</tspan><tspan class="c4">0</tspan><tspan class="c3">,</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateWarnings.</tspan><tspan class="c7">push</tspan><tspan class="c3">(</tspan><tspan class="c6">c</tspan>
+				<tspan x="0" y="4em" class="c3">),d</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c3">d.</tspan><tspan class="c5">war</tspan><tspan class="c5">n</tspan><tspan class="c2">&amp;&amp;!</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateMute</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c3">(d.</tspan><tspan class="c5">warn</tspan><tspan class="c3">(</tspan>
+				<tspan x="0" y="5em" class="c1">&quot;JQMIGRATE: </tspan><tspan class="c1">&quot;</tspan><tspan class="c2">+</tspan><tspan class="c6">c</tspan><tspan class="c3">)</tspan><tspan class="c3">,</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateTrace</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c3">d.</tspan><tspan class="c5">trace</tspan>
+				<tspan x="0" y="6em" class="c2">&amp;&amp;</tspan><tspan class="c3">d.</tspan><tspan class="c5">trace</tspan><tspan class="c3">()</tspan><tspan class="c3">))}</tspan><tspan class="c5">function</tspan><tspan class="c7">e</tspan><tspan class="c3">(</tspan><tspan class="c6">b</tspan><tspan class="c3">,</tspan><tspan class="c6">c</tspan><tspan class="c3">,</tspan><tspan class="c6">e</tspan><tspan class="c3">,</tspan><tspan class="c6">f</tspan><tspan class="c3">)</tspan><tspan class="c3">{</tspan><tspan class="c2">if</tspan><tspan class="c3">(</tspan>
+				<tspan x="0" y="7em" class="c5">Object</tspan><tspan class="c3">.</tspan><tspan class="c5">defineProperty</tspan><tspan class="c3">)</tspan><tspan class="c2">try</tspan><tspan class="c3">{</tspan><tspan class="c2">return</tspan><tspan class="c2">void</tspan>
+				<tspan x="0" y="8em" class="c5">Object</tspan><tspan class="c3">.</tspan><tspan class="c5">defineProperty</tspan><tspan class="c3">(</tspan><tspan class="c6">b</tspan><tspan class="c3">,</tspan><tspan class="c6">c</tspan><tspan class="c3">,{configurable:</tspan>
+				<tspan x="0" y="9em" class="c2">!</tspan><tspan class="c4">0</tspan><tspan class="c3">,enumerable:</tspan><tspan class="c2">!</tspan><tspan class="c4">0</tspan><tspan class="c3">,</tspan><tspan class="c7">get</tspan><tspan class="c3">:</tspan><tspan class="c5">function</tspan><tspan class="c3">()</tspan><tspan class="c3">{</tspan><tspan class="c2">return</tspan>
+				<tspan x="0" y="10em" class="c7">d</tspan><tspan class="c3">(</tspan><tspan class="c6">f</tspan><tspan class="c3">),</tspan><tspan class="c6">e</tspan><tspan class="c3">},</tspan><tspan class="c7">set</tspan><tspan class="c3">:</tspan><tspan class="c5">function</tspan><tspan class="c3">(</tspan><tspan class="c6">a</tspan><tspan class="c3">)</tspan><tspan class="c3">{</tspan><tspan class="c7">d</tspan><tspan class="c3">(</tspan><tspan class="c6">f</tspan><tspan class="c3">),</tspan><tspan class="c6">e</tspan><tspan class="c2">=</tspan><tspan class="c6">a</tspan><tspan class="c3">}})}</tspan>
+				<tspan x="0" y="11em" class="c2">catch</tspan><tspan class="c3">(g){}</tspan><tspan class="c6">a</tspan><tspan class="c3">._definePropertyBroken</tspan><tspan class="c2">=!</tspan><tspan class="c4">0</tspan><tspan class="c3">,</tspan>
+				<tspan x="0" y="12em" class="c6">b</tspan><tspan class="c3">[</tspan><tspan class="c6">c</tspan><tspan class="c3">]</tspan><tspan class="c2">=</tspan><tspan class="c6">e</tspan><tspan class="c3">}</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateVersio</tspan><tspan class="c3">n</tspan><tspan class="c2">=</tspan><tspan class="c1">&quot;1.4.1&quot;</tspan><tspan class="c3">;</tspan><tspan class="c5">var</tspan><tspan class="c3">f</tspan><tspan class="c2">=</tspan>
+				<tspan x="0" y="13em" class="c3">{};</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateWarnings</tspan><tspan class="c2">=</tspan><tspan class="c3">[],</tspan><tspan class="c6">b</tspan><tspan class="c3">.console</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c6">b</tspan>
+				<tspan x="0" y="14em" class="c3">.console.</tspan><tspan class="c5">log</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c6">b</tspan><tspan class="c3">.console.</tspan><tspan class="c5">log</tspan><tspan class="c3">(</tspan><tspan class="c1">&quot;JQMIGRAT</tspan>
+				<tspan x="0" y="15em" class="c1">E: Migrate is installed&quot;</tspan><tspan class="c2">+</tspan><tspan class="c3">(</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateMute</tspan>
+				<tspan x="0" y="16em" class="c2">?</tspan><tspan class="c1">&quot;&quot;</tspan><tspan class="c2">:</tspan><tspan class="c1">&quot; </tspan><tspan class="c1">with</tspan><tspan class="c1">logging active&quot;</tspan><tspan class="c3">)</tspan><tspan class="c2">+</tspan><tspan class="c1">&quot;,</tspan><tspan class="c1">version </tspan><tspan class="c1">&quot;</tspan>
+				<tspan x="0" y="17em" class="c2">+</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateVersion),</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateTrace</tspan><tspan class="c2">===</tspan><tspan class="c6">c</tspan>
+				<tspan x="0" y="18em" class="c2">&amp;&amp;</tspan><tspan class="c3">(</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateTrace</tspan><tspan class="c2">=!</tspan><tspan class="c4">0</tspan><tspan class="c3">),</tspan><tspan class="c6">a</tspan><tspan class="c3">.</tspan><tspan class="c7">migrateReset</tspan><tspan class="c2">=</tspan>
+				<tspan x="0" y="19em" class="c5">function</tspan><tspan class="c3">()</tspan><tspan class="c3">{f</tspan><tspan class="c2">=</tspan><tspan class="c3">{},</tspan><tspan class="c6">a</tspan><tspan class="c3">.migrateWarnings.length</tspan>
+				<tspan x="0" y="20em" class="c2">=</tspan><tspan class="c4">0</tspan><tspan class="c3">},</tspan><tspan class="c1">&quot;BackCompat&quot;</tspan><tspan class="c2">===</tspan><tspan class="c3">document.</tspan><tspan class="c5">compatMode</tspan>
+				<tspan x="0" y="21em" class="c2">&amp;&amp;</tspan><tspan class="c7">d</tspan><tspan class="c3">(</tspan><tspan class="c1">&quot;jQuery is not compatible with </tspan>
+				<tspan x="0" y="22em" class="c1">Quirks Mode&quot;</tspan><tspan class="c3">);</tspan><tspan class="c5">var</tspan><tspan class="c3">g</tspan><tspan class="c2">=</tspan><tspan class="c7">a</tspan><tspan class="c3">(</tspan><tspan class="c1">&quot;&lt;input/&gt;&quot;</tspan><tspan class="c3">,{size:</tspan>
+				<tspan x="0" y="23em" class="c4">1</tspan><tspan class="c3">}).</tspan><tspan class="c7">attr</tspan><tspan class="c3">(</tspan><tspan class="c1">&quot;size&quot;</tspan><tspan class="c3">)</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c6">a</tspan><tspan class="c3">.attrFn,h</tspan><tspan class="c2">=</tspan><tspan class="c6">a</tspan><tspan class="c3">.attr,i</tspan>
+				<tspan x="0" y="24em" class="c2">=</tspan><tspan class="c6">a</tspan><tspan class="c3">.</tspan><tspan class="c3">attrHooks.value</tspan><tspan class="c2">&amp;&amp;</tspan><tspan class="c6">a</tspan><tspan class="c3">.attrHooks.value.get</tspan>
+				<tspan x="0" y="25em" class="c2">||</tspan><tspan class="c5">function</tspan><tspan class="c3">(){</tspan><tspan class="c2">return</tspan><tspan class="c4">null</tspan><tspan class="c3">},j</tspan><tspan class="c2">=</tspan><tspan class="c6">a</tspan><tspan class="c3">.attrHooks.value</tspan>
+				<tspan x="0" y="26em" class="c2">&amp;&amp;</tspan><tspan class="c6">a</tspan><tspan class="c3">.att</tspan><tspan class="c3">rHooks.value.set</tspan><tspan class="c2">||</tspan><tspan class="c5">function</tspan><tspan class="c3">(){</tspan>
+				<tspan x="0" y="27em" class="c2">return</tspan><tspan class="c6">c</tspan><tspan class="c3">},k</tspan><tspan class="c2">=</tspan><tspan class="c1">/</tspan><tspan class="c2">^</tspan><tspan class="c1">(?:input</tspan><tspan class="c2">|</tspan><tspan class="c1">button)</tspan><tspan class="c2">$</tspan><tspan class="c1">/</tspan><tspan class="c2">i</tspan><tspan class="c3">,l</tspan><tspan class="c2">=</tspan><tspan class="c1">/</tspan><tspan class="c2">^</tspan>
+			</text>
+		</g>
+	</defs>
+	<rect x="0" y="0" width="600" height="900" stroke-width="0" style="paint-order: markers stroke fill"/>
+	<g id="code-block">
+		<use x="0" y="0" xlink:href="#code" font-size="32px" />
+		<use x="0" y="28em" xlink:href="#code" font-size="32px" />
+	</g>
+</svg>
