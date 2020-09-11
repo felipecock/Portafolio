@@ -307,9 +307,19 @@ footer {
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  margin: 0;
+  margin: 0.5em 0;
   color: var(--tema-texto-h1);
   text-decoration-line: none;
+  align-items: center;
+}
+
+.contact-info strong {
+  font-size: 2rem;
+}
+
+a.contact-info {
+  display: flex;
+  justify-content: center;
 }
 
 .copyright {
@@ -318,6 +328,15 @@ footer {
   font-style: italic;
 }
 
+.icon {
+  height: 1.2em;
+  width: auto;
+  padding: 0 0.5em;
+}
+
+.icon path{
+  fill: var(--tema-texto-h1);
+}
 
 @media (min-width: 700px) {
   section.AboutUS {
