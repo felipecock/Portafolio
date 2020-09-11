@@ -375,11 +375,6 @@ a.contact-info {
 }
 
 #fcc_test_suite_wrapper {
-  opacity: 0;
-  z-index: -1;
+  display: none;
 }
 
-/* #fcc_test_suite_wrapper:hover {
-  opacity: 1;
-  z-index: 2;
-} */
