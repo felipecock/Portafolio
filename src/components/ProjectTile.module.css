@@ -1,0 +1,80 @@
+.projectTile {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 50vh;
+  width: 90%;
+  opacity: 0.95;
+  background: linear-gradient(to bottom right, var(--tema-relleno1), var(--tema-relleno1a));
+  padding: 0;
+  margin: 1em auto;
+  font-size: 1.5rem;
+  color: var(--tema-texto-p0);
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+.projectTile:hover {
+  height: 75vh;
+  opacity: 1;
+  transition: 0.5s ease;
+  --display-preview-project: block;
+  --display-thumbnail-project: none;
+}
+
+.projectTitle {
+  display: block;
+  width: 100%;
+  background-color: var(--tema-relleno2);
+  color: var(--tema-cian-texto-h2);
+  margin: 0 0;
+  padding: 1em 0;
+}
+
+.gridPreviewImage {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 75vh;
+}
+
+div .gridPreviewImage:first-child {
+  width: 200%;
+  height: 75vh;
+  transform: scale(0.5);
+  transform-origin: top left;
+  display: var(--display-preview-project);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div .gridPreviewImage:last-child{
+  height: 5em;
+  padding: 0 1em;
+  width: auto;
+  margin: 1em auto;
+  display: var(--display-thumbnail-project);
+  border: solid var(--tema-relleno2);
+  border-width: 0 0.25em; 
+}
+
+p.project {
+  padding: 0 1em;
+  font-size: 2rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 800pt) {
+  .projectTile {
+    width: 100%;
+    margin: 0;
+  }
+
+  #video {
+    display: block;
+    width: 700px;
+  }
+}

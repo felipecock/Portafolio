@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+
+:root {
+  --tema-relleno1: var(--tema-cian-relleno1);
+  --tema-relleno1a: var(--tema-cian-relleno1a);
+  --tema-relleno2: var(--tema-cian-relleno2);
+  --tema-relleno2a: var(--tema-cian-relleno2a);
+  --tema-texto-p0: var(--tema-cian-texto-p0);
+  --tema-texto-h1: var(--tema-cian-texto-h1);
+  --tema-texto-h2: var(--tema-cian-texto-h2);
+  --tema-hoja-000: var(--tema-cian-hoja-000);
+  --tema-fuente-h: var(--tema-cian-fuente-h);
+  --tema-tamaño-h: var(--tema-cian-tamaño-h);
+  --tema-fuente-p: var(--tema-cian-fuente-p);
+  --tema-tamaño-p: var(--tema-cian-tamaño-p);
+
+  --navbar-height: 4rem;
+  
+  --codding-animation-status: running;  /*running, paused*/
+  --codding-animation-duration: 20s;
+
+  --display-thumbnail-project: block;
+  --display-preview-project: none;
+  
+  /*####### Temas #######*/
+  --tema-cian-relleno1: hsl(216, 40%, 40%);
+  --tema-cian-relleno1a: hsl(216, 40%, 40%);
+  --tema-cian-relleno2: hsl(218, 25%, 15%);
+  --tema-cian-relleno2a: hsl(218, 25%, 25%);
+  --tema-cian-texto-p0: hsl(216, 88%, 90%);
+  --tema-cian-texto-h1: hsl(216, 88%, 90%);
+  --tema-cian-texto-h2: hsl(216, 100%, 84%);
+  --tema-cian-hoja-000: rgba(0, 0, 0, 0.8);
+  --tema-cian-fuente-h: 'Lucida Console', 'Roboto Mono', monospace;
+  --tema-cian-tamaño-h: 15pt;
+  --tema-cian-fuente-p: 'Century Gothic', 'Montserrat', sans-serif;
+  --tema-cian-tamaño-p: 13pt;
+  /*#####################*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 20pt;
+  margin: 0;
+  border: 0;
+  min-width: 440px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  border: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: var(--tema-hoja-000);
+  background-image: url(./images/JS10.opt.svg);
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-size: 100% auto;
+  background-repeat: repeat;
+  animation-name: codding;
+  animation-duration: var(--codding-animation-duration);
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: var(--codding-animation-status);
+  animation-timing-function: steps(200); /*linear;steps(28);steps(112)*/
+}
+
+@keyframes codding {
+  100% {
+    background-position-y: calc(-3*100vh);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+
+.salto-preciso {
+  display: block;
+  position: relative;
+  padding-top: var(--navbar-height);
+  margin-top:  calc(-1 * var(--navbar-height));
+  z-index: -1;
+}
+
+main {
+  margin: 0;
+  /* padding-top: 33vh; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 0 1em #fff5;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top right, var(--tema-relleno2), var(--tema-relleno2a));
+  color: var(--tema-texto-h1);
+  padding: 0.5em 2.5em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2em;
+}
+
+.button {
+  padding: 0.2em;
+  margin: 1em 0;
+  font-size: 2rem;
+  align-self: center;
+  border-radius: 2em;
+  border: 0.2em solid var(--tema-relleno2);
+  background-color: var(--tema-relleno2);
+  width: 80%;
+  color: var(--tema-texto-h2);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom right, var(--tema-texto-p0), var(--tema-texto-h2));
+  color: var(--tema-relleno2);
+  font-weight: bold;
+  border: 0.2em solid var(--tema-relleno2);
+  cursor: pointer;
+}
+
+.button:focus {
+  /* border: 5px solid #007e7a; */
+  outline: none;
+  border: 0.2em solid var(--tema-relleno2);  
+}
+
+.contact-info {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5em 0;
+  color: var(--tema-texto-h1);
+  text-decoration-line: none;
   align-items: center;
+}
+
+.contact-info strong {
+  font-size: 2rem;
+}
+
+a.contact-info {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.copyright {
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icon {
+  height: 1.2em;
+  width: auto;
+  padding: 0 0.5em;
+}
+
+.icon path{
+  fill: var(--tema-texto-h1);
+}
+
+@media (min-width: 800pt) {
+  html {
+    font-size: 7pt;
   }
-  to {
-    transform: rotate(360deg);
+
+  section.AboutUS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+
+  form {
+    width: 45%;
+  }
+
+  #video {
+    display: block;
+    width: 700px;
+  }
+}
+
+#fcc_test_suite_wrapper {
+  display: none;
 }
