@@ -17,7 +17,7 @@ const ProjectTile:React.FunctionComponent<ProjectTileProps> = (props) => {
       </div>
       <p className={styles.project}> {props.description}</p>
       <a className="button" href="https://codepen.io/felipecock/full/zYqrrde" target="_blank">
-        Ver
+        Visitar
       </a>
     </div>
   )
