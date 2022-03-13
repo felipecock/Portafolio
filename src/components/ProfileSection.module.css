@@ -1,0 +1,62 @@
+.welcomeSection {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.bienvenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: var(--navbar-height);
+  height: calc(100% - var(--navbar-height));
+  background: linear-gradient(to top right, var(--tema-relleno2), var(--tema-relleno2a));
+  color: var(--tema-texto-h1);
+}
+
+.headerImg {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 30vh;
+  width: 30vh;
+  border: 1rem solid var(--tema-texto-h1);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 5em #fff5;
+}
+
+.foto {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 -100px 0;
+  padding: 0;
+  /* padding: 5vh; */
+}
+
+.profileLink {
+  border-color: var(--tema-relleno1);
+  background: var(--tema-relleno1);
+  color: var(--tema-texto-p0);
+  transition: opacity 1s ease;
+}
+
+.profileLink:hover {
+  border-color: var(--tema-relleno1);
+  background: var(--tema-texto-p0);
+  color: var(--tema-relleno1);
+}
+
+.subtitle {
+  font-size: 3rem;
+  padding: 0 1em;
+}

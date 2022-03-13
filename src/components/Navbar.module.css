@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  font-size: 2rem;
+  height: var(--navbar-height);
+  font-family: "Roboto Condensed", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-color: var(--tema-relleno2);
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.navbar a {
+  color: var(--tema-texto-h1);
+  text-decoration-line: none;
+  padding: 0.2em 1em;
+  width: 33.33%;
+  border-bottom: 0.2em solid var(--tema-relleno2);
+}
+
+.navbar a:hover {
+  background-color: var(--tema-relleno1);
+  color: var(--tema-texto-h1);
+  border-bottom: 0.2em solid var(--tema-texto-h1);
+}
