@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 50vh;
+  height: auto;
   width: 90%;
   opacity: 0.95;
   background: linear-gradient(to bottom right, var(--tema-relleno1), var(--tema-relleno1a));
@@ -13,15 +13,12 @@
   align-content: center;
   text-align: center;
   justify-content: space-between;
-
+  transition: 0.5s ease;
 }
 
 .projectTile:hover {
-  height: 75vh;
+  /* height: 75vh; */
   opacity: 1;
-  transition: 0.5s ease;
-  --display-preview-project: block;
-  --display-thumbnail-project: none;
 }
 
 .projectTitle {
@@ -37,10 +34,10 @@
   display: block;
   position: relative;
   width: 100%;
-  height: 75vh;
+  /* height: 75vh; */
 }
 
-div .gridPreviewImage:first-child {
+/* .gridPreviewImage:first-child {
   width: 200%;
   height: 75vh;
   transform: scale(0.5);
@@ -49,16 +46,23 @@ div .gridPreviewImage:first-child {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
-div .gridPreviewImage:last-child{
-  height: 5em;
+.gridPreviewImage img {
+  width: 50%;
+  height: auto;
   padding: 0 1em;
-  width: auto;
   margin: 1em auto;
-  display: var(--display-thumbnail-project);
   border: solid var(--tema-relleno2);
   border-width: 0 0.25em; 
+  transition: width 0.5s ease-in-out;
+}
+
+.projectTile:hover .gridPreviewImage img {
+  padding: 0;
+  border: none;
+  width: 100%;
+  margin: 0 auto 1em auto;
 }
 
 p.project {

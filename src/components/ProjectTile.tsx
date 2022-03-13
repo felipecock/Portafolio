@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import styles from "./ProjectTile.module.css"
 
 export interface ProjectTileProps {
@@ -14,13 +13,7 @@ const ProjectTile:React.FunctionComponent<ProjectTileProps> = (props) => {
     <div className={styles.projectTile}>
       <h2 className={styles.projectTitle}>{props.title}</h2>
       <div className={styles.gridPreviewImage}>
-        <iframe
-          className={styles.gridPreviewImage}
-          sandbox="allow-scripts allow-pointer-lock allow-same-origin"
-          scrolling="no"
-          src={props.image}
-          frameBorder="0"></iframe>
-        <img className={styles.gridPreviewImage} alt="" src={props.image} />
+        <img className={styles.gridPreviewImage} alt={`Vista previa de ${props.title}`} src={props.image} />
       </div>
       <p className={styles.project}> {props.description}</p>
       <a className="button" href="https://codepen.io/felipecock/full/zYqrrde" target="_blank">

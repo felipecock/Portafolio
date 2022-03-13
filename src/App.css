@@ -18,9 +18,6 @@
   
   --codding-animation-status: running;  /*running, paused*/
   --codding-animation-duration: 20s;
-
-  --display-thumbnail-project: block;
-  --display-preview-project: none;
   
   /*####### Temas #######*/
   --tema-cian-relleno1: hsl(216, 40%, 40%);
