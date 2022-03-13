@@ -47,5 +47,6 @@
     "@testing-library/dom": "^8.11.3",
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.0"
-  }
+  },
+  "homepage": "."
 }
