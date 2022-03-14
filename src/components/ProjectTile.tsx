@@ -16,7 +16,7 @@ const ProjectTile:React.FunctionComponent<ProjectTileProps> = (props) => {
         <img className={styles.gridPreviewImage} alt={`Vista previa de ${props.title}`} src={props.image} />
       </div>
       <p className={styles.project}> {props.description}</p>
-      <a className="button" href="https://codepen.io/felipecock/full/zYqrrde" target="_blank">
+      <a className="button" href={props.link} target="_blank">
         Visitar
       </a>
     </div>
@@ -25,7 +25,7 @@ const ProjectTile:React.FunctionComponent<ProjectTileProps> = (props) => {
 
 ProjectTile.defaultProps = {
   title: "Project",
-  image: "../images/profile-picture.jpeg",
+  image: "",
   description: "It is a new project",
   link: "",
 }
