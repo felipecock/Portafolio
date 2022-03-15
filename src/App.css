@@ -36,10 +36,9 @@
 }
 
 html {
-  font-size: 20pt;
   margin: 0;
   border: 0;
-  min-width: 440px;
+  font-size: 6pt;
 }
 
 body {
