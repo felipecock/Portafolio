@@ -52,7 +52,7 @@ body {
   background-image: url(/public/images/background.svg);
   background-position: right 0;
   background-repeat: repeat-y;
-  background-size: 100vw;
+  background-size: 75vw;
   background-attachment: fixed;
 }
 
@@ -86,7 +86,6 @@ header {
 
 main {
   margin: 0;
-  /* padding-top: 33vh; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
