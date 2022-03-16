@@ -4,7 +4,7 @@
   flex-direction: column;
   height: auto;
   width: 90%;
-  opacity: 0.85;
+  /* opacity: 0.85; */
   background: linear-gradient(to bottom right, var(--tema-relleno1), var(--tema-relleno1a));
   padding: 0;
   margin: 1em auto;
@@ -16,9 +16,9 @@
   transition: 0.5s ease;
 }
 
-.projectTile:hover {
+/* .projectTile:hover {
   opacity: 1;
-}
+} */
 
 .projectTitle {
   display: block;
