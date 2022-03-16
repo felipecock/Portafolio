@@ -1,6 +1,11 @@
 {
   "name": "portafolio",
   "version": "0.1.0",
+  "description": "Portafolio de proyectos de desarrollo de software.",
+  "author": {
+    "name": "Felipe Cock",
+    "url": "https://felipecock.github.io/Portafolio/gh-pages/index.html"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
