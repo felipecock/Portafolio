@@ -50,7 +50,7 @@ function App() {
               <span className="content-info"> GitHub @felipecock</span>
             </a>
           </p>
-          <p className="copyright">Copyright© 2020 Felipe Cock</p>
+          <p className="copyright">Copyright© 2022 Felipe Cock</p>
         </div>
       </footer>
     </div>
