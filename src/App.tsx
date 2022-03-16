@@ -6,7 +6,7 @@ import { Projects } from "./components/Projects"
 
 function App() {
   return (
-    <>
+    <div className="code-background scroll-animation">
       <header id="header">
         <Navbar />
       </header>
@@ -53,7 +53,7 @@ function App() {
           <p className="copyright">Copyright© 2020 Felipe Cock</p>
         </div>
       </footer>
-    </>
+    </div>
   )
 }
 

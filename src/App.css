@@ -27,7 +27,7 @@
   --tema-cian-texto-p0: hsl(216, 88%, 90%);
   --tema-cian-texto-h1: hsl(216, 88%, 90%);
   --tema-cian-texto-h2: hsl(216, 100%, 84%);
-  --tema-cian-hoja-000: rgba(0, 0, 0, 0.8);
+  --tema-cian-hoja-000: rgb(0, 0, 0);
   --tema-cian-fuente-h: 'Lucida Console', 'Roboto Mono', monospace;
   --tema-cian-tamaño-h: 15pt;
   --tema-cian-fuente-p: 'Century Gothic', 'Montserrat', sans-serif;
@@ -45,23 +45,24 @@ body {
   border: 0;
   margin: 0;
   scroll-behavior: smooth;
+}
+
+.code-background {
   background-color: var(--tema-hoja-000);
-  background-image: url(./images/JS10.opt.svg);
+  background-image: url(./images/background.svg);
+  background-position: right 0;
+  background-repeat: repeat-y;
+  background-size: 100vw;
   background-attachment: fixed;
-  background-blend-mode: multiply;
-  background-size: 100% auto;
-  background-repeat: repeat;
-  animation-name: codding;
-  animation-duration: var(--codding-animation-duration);
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-play-state: var(--codding-animation-status);
-  animation-timing-function: steps(200); /*linear;steps(28);steps(112)*/
+}
+
+.scroll-animation {
+  animation: codding var(--codding-animation-duration) steps(200) 0s infinite forwards var(--codding-animation-status);
 }
 
 @keyframes codding {
   100% {
-    background-position-y: calc(-3*100vh);
+    background-position: right -133.33333vw;
   }
 }
 
@@ -75,7 +76,7 @@ header {
   left: 0;
 }
 
-.salto-preciso {
+.accurate-jump {
   display: block;
   position: relative;
   padding-top: var(--navbar-height);

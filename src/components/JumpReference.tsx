@@ -5,5 +5,5 @@ type Params = {
 }
 
 export const JumpReference = ({ id }: Params) => {
-  return <div id={id} className="salto-preciso"></div>
+  return <div id={id} className="accurate-jump"></div>
 }
