@@ -32,7 +32,7 @@ function App() {
           </p>
           <p className="contact-info">Medellín, Colombia</p>
           <p className="contact-info">
-            <a className="contact-info" target="_blank" href="https://github.com/felipecock">
+            <a className="contact-info" target="_blank" rel="noreferrer" href="https://github.com/felipecock">
               <svg
                 className="icon"
                 width="32"
