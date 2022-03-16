@@ -4,7 +4,7 @@
   flex-direction: column;
   height: auto;
   width: 90%;
-  opacity: 0.95;
+  opacity: 0.85;
   background: linear-gradient(to bottom right, var(--tema-relleno1), var(--tema-relleno1a));
   padding: 0;
   margin: 1em auto;
@@ -17,7 +17,6 @@
 }
 
 .projectTile:hover {
-  /* height: 75vh; */
   opacity: 1;
 }
 
@@ -54,9 +53,11 @@
 }
 
 p.project {
+  margin: 0;
   padding: 0 1em;
   font-size: 2rem;
-  margin: 0;
+  height: 4em;
+  overflow-y: auto;
 }
 
 @media screen and (min-width: 800pt) {
