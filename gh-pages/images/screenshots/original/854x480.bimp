@@ -1,0 +1,17 @@
+#BIMP 2.6
+#MANIPULATION SET DEFINITION
+
+[RESIZE]
+new_w_pc=100
+new_h_pc=100
+new_w_px=854
+new_h_px=480
+resize_mode_width=1
+resize_mode_height=1
+stretch_mode=1
+padding_color=#000000000000
+padding_color_alpha=65535
+interpolation=2
+change_res=false
+new_res_x=72
+new_res_y=72
