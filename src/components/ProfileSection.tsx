@@ -6,7 +6,7 @@ export const ProfileSection = () => {
     <section className={styles.welcomeSection}>
       <div id="Bienvenido" className={styles.bienvenido}>
         <div id="header-img" className={styles.headerImg}>
-          <img id="Foto" className={styles.foto} src={"/images/profile-picture.jpeg"} alt="Foto" />
+          <img id="Foto" className={styles.foto} src={"./images/profile-picture.jpeg"} alt="Foto" />
         </div>
         <h1>Felipe Cock</h1>
         <p className={styles.subtitle}>
