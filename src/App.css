@@ -169,7 +169,7 @@ a.contact-info {
   fill: var(--tema-texto-h1);
 }
 
-@media (min-width: 800pt) {
+@media screen and (min-width: 769px) {
   html {
     font-size: 7pt;
   }
@@ -190,13 +190,5 @@ a.contact-info {
   form {
     width: 45%;
   }
-
-  #video {
-    display: block;
-    width: 700px;
-  }
 }
 
-#fcc_test_suite_wrapper {
-  display: none;
-}

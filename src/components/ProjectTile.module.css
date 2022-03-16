@@ -60,14 +60,10 @@ p.project {
   overflow-y: auto;
 }
 
-@media screen and (min-width: 800pt) {
+@media screen and (min-width: 769px) {
   .projectTile {
     width: 100%;
     margin: 0;
   }
 
-  #video {
-    display: block;
-    width: 700px;
-  }
 }
