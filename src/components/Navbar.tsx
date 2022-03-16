@@ -2,8 +2,6 @@ import React from 'react'
 import styles from "./Navbar.module.css"
 
 export const Navbar = () => {
-  console.log(styles.navbar);
-  
   return (
     <nav id="navbar" className={ styles.navbar }>
       <a href="#welcome-link">

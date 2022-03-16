@@ -24,7 +24,7 @@ const projectList: Array<ProjectTileProps> = [
     ],
     description:
       "Sitio web en HTML5 y CSS puro, con diseño web adaptable e interfaz de usuario limpia, intuitiva y amigable",
-      link: "https://codepen.io/felipecock/full/QWNEPOE",
+    link: "https://codepen.io/felipecock/full/QWNEPOE",
   },
   {
     title: "Formulario Web Adaptativo",
@@ -35,7 +35,7 @@ const projectList: Array<ProjectTileProps> = [
       ["./images/screenshots/optimized/adaptive-web-form-480.png", 854],
     ],
     description:
-    "Formulario en HTML5 y CSS con diseño web adaptativo, con opciones de accesibilidad, interfaz limpia, agradable e intuitiva",
+      "Formulario en HTML5 y CSS con diseño web adaptativo, con opciones de accesibilidad, interfaz limpia, agradable e intuitiva",
     link: "https://codepen.io/felipecock/full/zYqqqMr",
   },
   {
@@ -47,7 +47,7 @@ const projectList: Array<ProjectTileProps> = [
       ["./images/screenshots/optimized/gui-monitor-python-480.png", 854],
     ],
     description:
-    "Software en Python2.7 y Arduino con interfaz de usuario para monitorear y controlar en tiempo real un Arduino UNO",
+      "Software en Python2.7 y Arduino con interfaz de usuario para monitorear y controlar en tiempo real un Arduino UNO",
     link: "https://github.com/felipecock/Python-Arduino-Control-GUI",
   },
   {
@@ -75,14 +75,11 @@ const projectList: Array<ProjectTileProps> = [
 ]
 
 export const Projects = () => {
-  console.log(projectList)
-
   const generateTiles = () =>
-    projectList.map((project) => {
-      console.log(project)
-
+    projectList.map((project, index) => {
       return (
         <ProjectTile
+          key={`project-${index.toString()}`}
           title={project.title}
           image={project.image}
           description={project.description}
