@@ -160,13 +160,15 @@ a.contact-info {
 }
 
 .icon {
-  height: 1.2em;
+  height: 1em;
   width: auto;
   padding: 0 0.5em;
+  color: inherit;
+  fill: currentColor;
 }
 
-.icon path{
-  fill: var(--tema-texto-h1);
+.icon path {
+  fill: currentColor;
 }
 
 @media screen and (min-width: 769px) {
