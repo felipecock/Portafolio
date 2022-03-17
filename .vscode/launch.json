@@ -6,9 +6,15 @@
   "configurations": [
     {
       "command": "pnpm start",
-      "name": "Run pnpm start",
+      "name": "Run app server",
       "request": "launch",
-      "type": "node-terminal",
+      "type": "node-terminal"
+    },
+    {
+      "command": "pnpm run build",
+      "name": "Build release",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
