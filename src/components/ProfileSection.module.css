@@ -43,14 +43,14 @@
   /* padding: 5vh; */
 }
 
-.profileLink {
+.largeButton {
   border-color: var(--tema-relleno1);
   background: var(--tema-relleno1);
   color: var(--tema-texto-p0);
   transition: opacity 1s ease;
 }
 
-.profileLink:hover {
+.largeButton:hover {
   border-color: var(--tema-relleno1);
   background: var(--tema-texto-p0);
   color: var(--tema-relleno1);

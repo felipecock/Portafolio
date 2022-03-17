@@ -15,8 +15,14 @@ export const ProfileSection = () => {
           Ingeniero Mecatrónico
         </p>
         <a
-          id="profile-link"
-          className={`button ${styles.profileLink}`}
+          className={`button ${styles.largeButton}`}
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/felipecock/">
+          Perfil de GitHub
+        </a>
+        <a
+          className={`button ${styles.largeButton}`}
           target="_blank"
           rel="noreferrer"
           href="https://www.freecodecamp.org/felipecock">
