@@ -43,6 +43,16 @@
   /* padding: 5vh; */
 }
 
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 70em;
+}
+
 .largeButton {
   border-color: var(--tema-relleno1);
   background: var(--tema-relleno1);

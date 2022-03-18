@@ -11,23 +11,23 @@ export const ProfileSection = () => {
         <h1>Felipe Cock</h1>
         <p className={styles.subtitle}>
           <strong>Desarrollador Front-End</strong>
-          <br />
-          Ingeniero Mecatrónico
         </p>
-        <a
-          className={`button ${styles.largeButton}`}
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/felipecock/">
-          Perfil de GitHub
-        </a>
-        <a
-          className={`button ${styles.largeButton}`}
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.freecodecamp.org/felipecock">
-          Portafolio en freeCodeCamp.org
-        </a>
+        <div className={styles.buttonsContainer}>
+          <a
+            className={`button ${styles.largeButton}`}
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/felipecock/">
+            Perfil de GitHub
+          </a>
+          <a
+            className={`button ${styles.largeButton}`}
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.freecodecamp.org/felipecock">
+            Portafolio en freeCodeCamp.org
+          </a>
+        </div>
       </div>
     </section>
   )
