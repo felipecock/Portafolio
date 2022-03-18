@@ -1,0 +1,28 @@
+.contactInfo {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5em 0;
+  color: var(--tema-texto-h1);
+  text-decoration-line: none;
+  align-items: center;
+}
+
+.contactInfo strong {
+  font-size: 2rem;
+}
+
+a.contactInfo {
+  display: flex;
+  justify-content: center;
+}
+
+a.contactInfo:hover {
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+  font-style: italic;
+}
