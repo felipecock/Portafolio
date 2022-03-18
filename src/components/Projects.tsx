@@ -5,7 +5,7 @@ import ProjectList from "../json/projectList.json"
 
 const projectList: Array<ProjectTileProps> = ProjectList
 
-const imagesPath = "./images/screenshots/optimized/"
+const imagesPath = `${process.env.PUBLIC_URL}/images/screenshots/optimized/`
 const resolutions = [120, 240, 360, 480, 600, 720, 800]
 const imageFormat = ".png"
 
