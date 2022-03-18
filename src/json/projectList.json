@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Proyecto ASILOS",
+    "imageBaseName": "asilos-project",
+    "description": "Proyecto ASILOS: Archivo de Soluciones a Inconvenientes en Linux u Otro Software",
+    "link": "https://felipecock.github.io/ASILOS/main.html"
+  },
+  {
+    "title": "Sitio Web de GENCORE S.A.S.",
+    "imageBaseName": "gencore-page",
+    "description": "Sitio web en HTML5 y CSS puro, con diseño web adaptable e interfaz de usuario limpia, intuitiva y amigable",
+    "link": "https://codepen.io/felipecock/full/QWNEPOE"
+  },
+  {
+    "title": "Formulario Web Adaptativo",
+    "imageBaseName": "adaptive-web-form",
+    "description": "Formulario en HTML5 y CSS con diseño web adaptativo, con opciones de accesibilidad, interfaz limpia, agradable e intuitiva",
+    "link": "https://codepen.io/felipecock/full/zYqqqMr"
+  },
+  {
+    "title": "Python Arduino Control GUI",
+    "imageBaseName": "gui-monitor-python",
+    "description": "Software en Python2.7 y Arduino con interfaz de usuario para monitorear y controlar en tiempo real un Arduino UNO",
+    "link": "https://github.com/felipecock/Python-Arduino-Control-GUI"
+  },
+  {
+    "title": "Página Biográfica en HTML5 y CSS",
+    "imageBaseName": "memorial",
+    "description": "Página Tributo a San Ignacio de Loyola destacando los principales aspectos de su vida",
+    "link": "https://codepen.io/felipecock/full/zYqrrde"
+  },
+  {
+    "title": "Sitio Web de Writeduca",
+    "imageBaseName": "writeduca",
+    "description": "Sitio web responsive desarrollado en Google Sites con componentes personalizados.",
+    "link": "https://www.writeduca.com/"
+  },
+  {
+    "title": "Sitio Web de AbortPest",
+    "imageBaseName": "abortpest",
+    "description": "Sitio web responsive desarrollado en Google Sites con componentes personalizados.",
+    "link": "https://www.abortpest.com/"
+  },
+  {
+    "title": "Sitio Web de Cloud9",
+    "imageBaseName": "cloud9medellin",
+    "description": "Sitio web responsive desarrollado en WordPress con sistema de reservas para un hostal.",
+    "link": "https://www.cloud9medellin.com/"
+  }
+]
