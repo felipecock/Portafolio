@@ -38,10 +38,12 @@
 img.gridPreviewImage {
   width: 50%;
   height: auto;
+  min-height: 7em;
   padding: 0 1em;
   margin: 1em auto;
   border: solid var(--tema-relleno2);
   border-width: 0 0.25em;
+  background: url(/public/favicon.svg) center/contain no-repeat content-box;
   transition: all 0.5s ease-in-out;
 }
 
