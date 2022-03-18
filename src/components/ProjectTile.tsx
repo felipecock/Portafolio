@@ -13,14 +13,13 @@ export interface ProjectTileProps {
 const ProjectTile: React.FunctionComponent<ProjectTileProps> = (props) => {
   const altSentence = "Vista previa de "
   const imageSrcSet = Array.isArray(props.imageSource) ? props.imageSource.map((srcSet) => `${srcSet[0]} ${srcSet[1]}w`).join() : ""
-  const defaultImage = '%PUBLIC_URL%/favicon.svg'
 
   return (
     <div className={styles.projectTile}>
       <h2 className={styles.projectTitle}>{props.title}</h2>
       <div className={styles.gridPreviewImage}>
         {Array.isArray(props?.imageSource) ? (
-          <object data={defaultImage} type={"image/svg+xml"}>
+          <>
             <img
               id={props.id}
               className={styles.gridPreviewImage}
@@ -41,7 +40,7 @@ const ProjectTile: React.FunctionComponent<ProjectTileProps> = (props) => {
               sizes={"(max-width: 481px) 90vw, (min-width: 481px) 40vw, (min-width: 769px) 30vw"}
               loading={"lazy"}
             />
-          </object>
+          </>
         ) : (
           <img className={styles.gridPreviewImage} alt={altSentence + props.title} src={props.imageSource} />
         )}
