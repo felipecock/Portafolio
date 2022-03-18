@@ -29,7 +29,7 @@ const ProjectTile: React.FunctionComponent<ProjectTileProps> = (props) => {
               sizes={"(max-width: 481px) 40vw, (min-width: 481px) 20vw, (min-width: 769px) 14vw"}
               width={213}
               height={120}
-              loading={"eager"}
+              loading={"lazy"}
             />
             <img
               id={props.id + "-large"}
