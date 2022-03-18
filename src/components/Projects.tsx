@@ -77,9 +77,11 @@ const projectList: Array<ProjectTileProps> = [
 export const Projects = () => {
   const generateTiles = () =>
     projectList.map((project, index) => {
+      const tile_id = !project.id ? `project-${index.toString()}` : project.id
       return (
         <ProjectTile
-          key={`project-${index.toString()}`}
+          key={tile_id}
+          id={tile_id}
           title={project.title}
           image={project.image}
           description={project.description}

@@ -35,21 +35,40 @@
   width: 100%;
 }
 
-.gridPreviewImage img {
+img.gridPreviewImage {
   width: 50%;
   height: auto;
   padding: 0 1em;
   margin: 1em auto;
   border: solid var(--tema-relleno2);
-  border-width: 0 0.25em; 
+  border-width: 0 0.25em;
   transition: all 0.5s ease-in-out;
 }
 
-.projectTile:hover .gridPreviewImage img {
+.projectTile:hover img.gridPreviewImage {
   padding: 0;
   border-width: 0;
   width: 100%;
   margin: 0 auto 1em auto;
+}
+
+img.gridPreviewImageLarge {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* filter: hue-rotate(45deg); Helps to identify large image*/ 
+  opacity: 0;
+}
+
+.projectTile:hover img.gridPreviewImageLarge {
+  display: block;
+  transition: opacity 0s 0.5s;
+}
+
+img.gridPreviewImageLarge:hover {
+  opacity: 1;
 }
 
 p.project {
@@ -65,5 +84,4 @@ p.project {
     width: 100%;
     margin: 0;
   }
-
 }
